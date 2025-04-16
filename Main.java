@@ -22,7 +22,7 @@ public class Main {
         read(suc2, "suc2.txt");
         suc2.removeSucursal("Shenzhen");
         suc2.getSucursal();
-        suc2.removeSucursal("ï»¿Tokio");
+        suc2.removeSucursal("Tokio");
         suc2.getSucursal(); 
         // d) ninguna de las anteriores
 
@@ -30,7 +30,10 @@ public class Main {
 
         read(suc3, "suc3.txt");
 
-        suc3.getSucursal();
+        suc3.getSucursal(";_");
+        // Montreal;_Caracas;_Tulsa;_Mobile;_Vancouver;_
+
+
 
 
        
