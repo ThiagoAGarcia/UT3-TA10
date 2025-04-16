@@ -1,6 +1,8 @@
 import java.util.LinkedList;
 import java.util.List;
 
+// el consumo de memoria es similar a la PD6 ya que ambos implementan una lista enlazada.
+
 public class Empresa{ 
     public String name;
     private List<String> sucursal;
